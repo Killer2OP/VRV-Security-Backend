@@ -98,10 +98,10 @@ npm install
 ```
 ### Create .env file with your MongoDB Atlas URI
 ```
-echo "MONGODB_URI=your_atlas_uri" > .env
-echo "JWT_SECRET=your_secret" >> .env
-echo "JWT_EXPIRY=24h" >> .env
-echo "PORT=3000" >> .env
+"MONGODB_URI=your_atlas_uri"
+"JWT_SECRET=your_secret" 
+"JWT_EXPIRY=24h"
+"PORT=3000" 
 ```
 ## Start the server:
 ```
